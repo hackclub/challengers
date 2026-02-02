@@ -1,2 +1,8 @@
 <!DOCTYPE html>
 <meta http-equiv="refresh" content="0; url=https://flavortown.hackclub.com?src=challenger">
+<form id="logout-form" action="https://flavortown.hackclub.com/logout" method="POST">
+    <input type="hidden" name="_method" value="delete">
+</form>
+  <script>
+    document.getElementById('logout-form').submit();
+  </script>
